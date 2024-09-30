@@ -23,8 +23,8 @@ public class Tablero {
     }
 
     public void imprimirTablero() { 
-        for (int i = 0; i < casilleros.length; i++) {
-            for (int j = 0; j < casilleros[i].length; j++) {
+        for (int i = 0; i < casilleros.length; i++) { //recorro la fila del tablero
+            for (int j = 0; j < casilleros[i].length; j++) { //recorro una columna del tablero
                 if (casilleros[i][j] != null) {
                     // Imprime el color del casillero (Blanco o Negro) con el get.color()
                     System.out.print(casilleros[i][j].getColor() + " ");
