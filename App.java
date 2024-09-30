@@ -15,7 +15,7 @@ public class App {
         tablero.imprimirTablero(); // Imprimo el tablero
     }
 
-    // Método para crear las piezas blancas
+    // Metodo para crear las piezas blancas
     private static List<Pieza> crearPiezas() {
         List<Pieza> piezasBlancas = new ArrayList<>();
         
@@ -38,7 +38,7 @@ public class App {
         return piezasBlancas; // Retorno la lista de piezas
     }
 
-    // Método para imprimir las piezas
+    // Metodo para imprimir las piezas
     private static void imprimirPiezas(List<Pieza> piezas) {
         System.out.println("==================== PIEZAS BLANCAS ====================\n");
 
