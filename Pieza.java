@@ -1,4 +1,4 @@
-public class Pieza {
+public abstract class Pieza {
     private String colorPieza;
     private String movimiento;
     private String caracter;
@@ -58,4 +58,6 @@ public class Pieza {
 
    
     //-------------------------------------------------------------------------//
+
+    public abstract String mover();
 }
