@@ -3,7 +3,7 @@ public class Casillero {
 
     // Constructor
     public Casillero() {
-        this.color = "Blanco"; // Asignar un color por defecto
+        this.color = "Blanco"; // le asigno un color por defecto
     }
 
     public Casillero(String color) {
