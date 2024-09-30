@@ -4,4 +4,10 @@ public class Caballo extends Pieza {
         super(colorPieza, movimiento, caracter, "Lenta"); //la clase super se utiliza para referirse a la clase padre,
         //en este caso el metodo super() llama al constructor de la clase Pieza
     }
+
+    @Override
+    
+    public String mover(){
+        return "Se mueve en L";
+    }
 }
