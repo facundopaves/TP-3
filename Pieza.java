@@ -4,6 +4,7 @@ public abstract class Pieza {
     private String caracter;
     private String velocidad="Lenta";  //Con esto seteo por defecto la velocidad a lenta
     
+    public Pieza(){} //Constructor vacio
 
     // Constructor 
     public Pieza(String colorPieza, String movimiento, String caracter, String velocidad) {
