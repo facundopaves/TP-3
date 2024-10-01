@@ -1,4 +1,9 @@
 public class Alfil extends Pieza {
+
+
+    public Alfil(){} //Constructor vacio
+
+    
     // Constructor de la clase Alfil
     public Alfil(String colorPieza, String movimiento, String caracter) {
         super(colorPieza, movimiento, caracter,"lenta");
