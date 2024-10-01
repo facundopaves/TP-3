@@ -41,6 +41,8 @@ public class App {
 
     //clase main
     public static void main(String[] args) {
+
+        System.out.println("============================  TP-4 'Implementacion de Ajedrez'  ============================\n\n");
         // Creo un objeto tablero que tiene 8 filas y 8 columnas
         Tablero tablero = new Tablero(8, 8);
 
