@@ -4,9 +4,9 @@ import java.sql.SQLException;
 
 public class AccesoDatos {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/Ajedrez"; // Cambia "tu_base_de_datos" por el nombre de tu BD
-    private static final String USER = "root"; // Cambia "tu_usuario" por tu usuario de BD
-    private static final String PASSWORD = "root"; // Cambia "tu_contraseña" por tu contraseña de BD
+    private static final String URL = "jdbc:mysql://localhost:3306/Ajedrez"; 
+    private static final String USER = "root"; 
+    private static final String PASSWORD = "root"; 
 
     public static Connection obtenerConexion() {
         Connection connection = null;
